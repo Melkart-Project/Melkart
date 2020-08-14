@@ -1,0 +1,14 @@
+﻿
+{
+    "connectionString": "mongodb+srv://bessam:123@cluster0-j6hoy.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "secret": "b2e44a5a-ba0f-43f0-ae7d-cfcfaad08e0f",
+    "emailFrom": "cmmspro2020@gmail.com",
+    "smtpOptions": {
+        "host": "smtp.gmail.com",
+        "port": 465 ,
+        "auth": {
+            "user": "cmmspro2020@gmail.com",
+            "pass": "Cmmspro$2020$"
+        }
+    }
+}
