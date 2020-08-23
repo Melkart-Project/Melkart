@@ -9,9 +9,15 @@ import { SignupComponent } from './examples/signup/signup.component';
 import { LandingComponent } from './examples/landing/landing.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { DomaineComponent } from './components/entreprise/domaine/domaine.component'
+import { CharteQualiteComponent } from './components/entreprise/charte-qualite/charte-qualite.component'
+import { RecrutementComponent } from './components/entreprise/recrutement/recrutement.component'
+
+
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'domaine', component: DomaineComponent},
+    { path: 'quality', component: CharteQualiteComponent},
+    { path: 'jobs', component: RecrutementComponent},
     { path: 'home',             component: ComponentsComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'signup',           component: SignupComponent },

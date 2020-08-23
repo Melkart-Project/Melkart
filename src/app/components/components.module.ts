@@ -16,6 +16,8 @@ import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
 import { DomaineComponent } from './entreprise/domaine/domaine.component';
 import { RecrutementComponent } from './entreprise/recrutement/recrutement.component';
+import { CharteQualiteComponent } from './entreprise/charte-qualite/charte-qualite.component';
+import { FormComponent } from './entreprise/recrutement/form/form.component';
 
 @NgModule({
     imports: [
@@ -36,7 +38,9 @@ import { RecrutementComponent } from './entreprise/recrutement/recrutement.compo
         NgbdModalComponent,
         NgbdModalContent,
         DomaineComponent,
-        RecrutementComponent
+        RecrutementComponent,
+        CharteQualiteComponent,
+        FormComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]
